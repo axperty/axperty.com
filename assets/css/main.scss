@@ -110,6 +110,26 @@ body {
     text-align: left;
 }
 
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    color: var(--text-muted);
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.post-navigation a {
+    margin: 0;
+}
+
 .post-title {
     margin: 0;
     font-size: 32px;
@@ -201,13 +221,26 @@ a:hover {
     gap: 10px;
 }
 
-/* Categories Page */
+/* Categories / Filters Page */
+.section-title {
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
 .page-title {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 40px;
     font-weight: normal;
     text-align: center;
+}
+
+.page-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    margin-bottom: 40px;
 }
 
 .category-heading {
@@ -273,6 +306,16 @@ a:hover {
 .category-filter-btn.active {
     color: var(--text-color);
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.category-filter-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.category-filter-label {
+    color: var(--text-muted);
+    margin-right: 15px;
 }
 
 /* Reading Progress Bar */

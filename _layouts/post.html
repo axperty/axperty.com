@@ -15,20 +15,20 @@ layout: default
         {{ content }}
     </div>
     
-    <div class="post-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px; color: var(--text-muted);">
+    <div class="post-footer">
         <span class="post-author">Written by {{ page.author | default: site.author.name }}</span>
         <button class="share-btn" onclick="sharePost()">Share</button>
     </div>
 
-    <div class="post-navigation" style="display: flex; justify-content: space-between; margin-top: 50px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px;">
+    <div class="post-navigation">
         {% if page.previous.url %}
-            <a href="{{ page.previous.url | relative_url }}" class="category-filter-btn" style="margin: 0;">&larr; Previous</a>
+            <a href="{{ page.previous.url | relative_url }}" class="category-filter-btn">&larr; Previous</a>
         {% else %}
             <span></span>
         {% endif %}
         
         {% if page.next.url %}
-            <a href="{{ page.next.url | relative_url }}" class="category-filter-btn" style="margin: 0;">Next &rarr;</a>
+            <a href="{{ page.next.url | relative_url }}" class="category-filter-btn">Next &rarr;</a>
         {% else %}
             <span></span>
         {% endif %}

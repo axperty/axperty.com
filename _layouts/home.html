@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h2 class="section-title" style="text-align: center; font-weight: normal; font-size: 36px; margin-bottom: 20px;">Latest Posts</h2>
+<h2 class="section-title">Latest Posts</h2>
 
-<div class="category-filter-container" style="text-align: center; margin-bottom: 40px;">
-    <span style="color: var(--text-muted); margin-right: 15px;">Categories:</span>
+<div class="category-filter-container">
+    <span class="category-filter-label">Categories:</span>
     <button class="category-filter-btn active" data-filter="all">All</button>
     {% for category in site.categories %}
         <button class="category-filter-btn" data-filter="{{ category | first | slugify }}">{{ category | first }}</button>
