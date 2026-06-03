@@ -4,3 +4,14 @@ url: "https://axperty.github.io"
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 avatar: "https://avatars.githubusercontent.com/u/107956734"
+
+author:
+  name: "Axperty"
+  url: "https://axperty.github.io"
+
+twitter:
+  username: "axperty"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

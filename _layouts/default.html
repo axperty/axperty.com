@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
     <main class="container">
         <header class="site-header">
-            <img src="{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
-            <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            <div class="header-main">
+                <img src="{{ site.avatar }}" alt="{{ site.title }}" class="avatar">
+                <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+            </div>
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <span class="nav-separator">|</span>
+                <a href="{{ '/categories.html' | relative_url }}">Categories</a>
+                <span class="nav-separator">|</span>
+                <a href="{{ '/mods.html' | relative_url }}">Mods</a>
+                <span class="nav-separator">|</span>
+                <a href="{{ '/about.html' | relative_url }}">About</a>
+            </nav>
         </header>
 
         {{ content }}
@@ -21,8 +33,29 @@
                 <a href="https://www.curseforge.com/members/axperty/projects">CurseForge</a>
                 <a href="https://modrinth.com/user/Axperty">Modrinth</a>
             </div>
-            <p class="copyright">Copyright 2026 Axperty. All Rights Reserved.</p>
+            <p class="copyright">Copyright 2026 Axperty. All Rights Reserved. </br> Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. All other trademarks and logos are property of their respective owners.</p>
         </footer>
     </main>
+
+    <button id="backToTop" class="back-to-top" title="Go to top">▲</button>
+
+    <script>
+        const backToTopButton = document.getElementById("backToTop");
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add("show");
+            } else {
+                backToTopButton.classList.remove("show");
+            }
+        });
+
+        backToTopButton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
 </body>
 </html>
