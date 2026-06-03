@@ -2,9 +2,17 @@
 layout: default
 ---
 
-<ul class="article-list">
+<div class="category-filter-container" style="text-align: center; margin-bottom: 40px;">
+    <span style="color: var(--text-muted); margin-right: 15px;">Categories:</span>
+    <button class="category-filter-btn active" data-filter="all">All</button>
+    {% for category in site.categories %}
+        <button class="category-filter-btn" data-filter="{{ category | first | slugify }}">{{ category | first }}</button>
+    {% endfor %}
+</div>
+
+<ul class="article-list" id="post-list">
     {% for post in site.posts %}
-    <li class="article-item">
+    <li class="article-item" data-post-category="{% if post.category %}{{ post.category | slugify }}{% else %}uncategorized{% endif %}">
         <h2 class="article-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <span class="article-meta">
             {{ post.date | date: "%B %-d, %Y" }}
@@ -19,3 +27,29 @@ layout: default
     </li>
     {% endfor %}
 </ul>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const filterBtns = document.querySelectorAll('.category-filter-btn');
+        const posts = document.querySelectorAll('.article-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                const filterValue = btn.getAttribute('data-filter');
+
+                posts.forEach(post => {
+                    if (filterValue === 'all' || post.getAttribute('data-post-category') === filterValue) {
+                        post.style.display = 'block';
+                    } else {
+                        post.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>

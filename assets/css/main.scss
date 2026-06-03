@@ -8,6 +8,7 @@
     --text-color: #ffffff;
     --text-muted: #9ca3af;
     --link-color: #7289da;
+    --hover-color: #a5b4fc;
 }
 
 html {
@@ -138,6 +139,11 @@ body {
 a {
     color: var(--link-color);
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--hover-color);
 }
 
 /* Footer */
@@ -246,6 +252,29 @@ a {
 }
 
 .back-to-top:hover {
-    background-color: var(--link-color);
+    background-color: var(--hover-color);
     transform: translateY(-3px);
+}
+
+/* Category Filter Buttons */
+.category-filter-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.category-filter-btn:hover {
+    color: var(--hover-color);
+}
+
+.category-filter-btn.active {
+    color: var(--text-color);
+    background-color: rgba(255, 255, 255, 0.1);
 }
