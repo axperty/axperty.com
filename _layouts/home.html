@@ -19,6 +19,7 @@ layout: default
             {% if post.category %}
                 &bull; {{ post.category }}
             {% endif %}
+            &bull; {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read
         </span>
         <p class="article-excerpt">
             {{ post.content | strip_html | truncatewords: 20 }}
@@ -35,9 +36,7 @@ layout: default
 
         filterBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                // Remove active class from all buttons
                 filterBtns.forEach(b => b.classList.remove('active'));
-                // Add active class to clicked button
                 btn.classList.add('active');
 
                 const filterValue = btn.getAttribute('data-filter');

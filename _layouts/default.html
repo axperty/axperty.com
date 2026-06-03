@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
+    <div id="reading-progress-bar"></div>
     <main class="container">
         <header class="site-header">
             <div class="header-main">
@@ -15,13 +16,10 @@
                 <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
             </div>
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <span class="nav-separator">|</span>
-                <a href="{{ '/mods' | relative_url }}">Mods</a>
-                <span class="nav-separator">|</span>
-                <a href="{{ '/donate' | relative_url }}">Donate</a>
-                <span class="nav-separator">|</span>
-                <a href="{{ '/about' | relative_url }}">About</a>
+                <a href="{{ '/' | relative_url }}" class="category-filter-btn {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">Home</a>
+                <a href="{{ '/projects' | relative_url }}" class="category-filter-btn {% if page.url contains '/mods' %}active{% endif %}">Mods</a>
+                <a href="{{ '/donate' | relative_url }}" class="category-filter-btn {% if page.url contains '/donate' %}active{% endif %}">Donate</a>
+                <a href="{{ '/about' | relative_url }}" class="category-filter-btn {% if page.url contains '/about' %}active{% endif %}">About</a>
             </nav>
         </header>
 
@@ -56,6 +54,18 @@
                 top: 0,
                 behavior: "smooth"
             });
+        });
+
+        // Reading Progress Bar
+        window.addEventListener('scroll', () => {
+            const progressBar = document.getElementById('reading-progress-bar');
+            if (progressBar) {
+                const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+                const clientHeight = document.documentElement.clientHeight;
+                const scrollPercent = (scrollTop / (scrollHeight - clientHeight)) * 100;
+                progressBar.style.width = scrollPercent + '%';
+            }
         });
     </script>
 </body>

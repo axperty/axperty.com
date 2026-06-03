@@ -34,6 +34,7 @@ body {
     padding: 60px 20px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 /* Header */
@@ -148,7 +149,8 @@ a:hover {
 
 /* Footer */
 .site-footer {
-    margin-top: 80px;
+    margin-top: auto;
+    padding-top: 80px;
     text-align: center;
     font-size: 18px;
 }
@@ -163,6 +165,11 @@ a:hover {
 .footer-links a {
     color: var(--text-color);
     text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+    color: var(--hover-color);
 }
 
 .copyright {
@@ -188,21 +195,10 @@ a:hover {
 
 .site-nav {
     font-size: 24px;
-}
-
-.site-nav a {
-    color: var(--text-muted);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.site-nav a:hover {
-    color: var(--text-color);
-}
-
-.nav-separator {
-    color: var(--border);
-    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Categories Page */
@@ -277,4 +273,16 @@ a:hover {
 .category-filter-btn.active {
     color: var(--text-color);
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Reading Progress Bar */
+#reading-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--link-color);
+    z-index: 9999;
+    transition: width 0.1s ease;
 }

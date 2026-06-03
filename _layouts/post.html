@@ -7,10 +7,25 @@ layout: default
     <span class="post-meta">
         {{ page.date | date: "%B %-d, %Y" }}
         {% if page.category %}
-            &bull; <a href="{{ '/categories.html#' | append: page.category | relative_url }}">{{ page.category }}</a>
+            &bull; {{ page.category }}
         {% endif %}
+        &bull; {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read
     </span>
     <div class="post-content">
         {{ content }}
+    </div>
+
+    <div class="post-navigation" style="display: flex; justify-content: space-between; margin-top: 50px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px;">
+        {% if page.previous.url %}
+            <a href="{{ page.previous.url | relative_url }}" class="category-filter-btn" style="margin: 0;">&larr; Previous</a>
+        {% else %}
+            <span></span>
+        {% endif %}
+        
+        {% if page.next.url %}
+            <a href="{{ page.next.url | relative_url }}" class="category-filter-btn" style="margin: 0;">Next &rarr;</a>
+        {% else %}
+            <span></span>
+        {% endif %}
     </div>
 </article>
