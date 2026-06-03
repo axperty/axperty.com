@@ -10,6 +10,10 @@
     --link-color: #7289da;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -107,7 +111,7 @@ body {
 
 .post-title {
     margin: 0;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: normal;
 }
 
@@ -124,6 +128,12 @@ body {
 
 .post-content p {
     margin-bottom: 20px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 a {
