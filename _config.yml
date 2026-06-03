@@ -9,9 +9,6 @@ author:
   name: "Axperty"
   url: "https://axperty.github.io"
 
-twitter:
-  username: "axperty"
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
