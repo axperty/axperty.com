@@ -1,7 +1,4 @@
----
----
-
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+--- --- @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 :root {
     --bg-color: #2b2d31;
@@ -15,6 +12,17 @@ html {
     overflow-y: scroll;
 }
 
+/* Page Transition */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -26,6 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    animation: fadeIn 0.4s ease-in-out;
 }
 
 .container {
@@ -285,4 +294,83 @@ a:hover {
     background-color: var(--link-color);
     z-index: 9999;
     transition: width 0.1s ease;
+}
+
+/* Share Button */
+.share-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.share-btn:hover {
+    color: var(--hover-color);
+    border-color: var(--hover-color);
+}
+
+/* Mod/Project List Items */
+.mod-item {
+    border: 1px solid var(--border);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.mod-title {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.mod-title a {
+    color: var(--text-color);
+}
+
+.mod-description {
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.mod-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* About & Donate Pages */
+.page-content-centered {
+    text-align: center;
+}
+
+.about-content {
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.donate-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.donate-links a {
+    transition: transform 0.2s ease;
+}
+
+.donate-links a:hover {
+    transform: translateY(-5px);
+}
+
+.donate-links img {
+    height: 64px;
 }

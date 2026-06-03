@@ -14,6 +14,11 @@ layout: default
     <div class="post-content">
         {{ content }}
     </div>
+    
+    <div class="post-footer" style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px; color: var(--text-muted);">
+        <span class="post-author">Written by {{ page.author | default: site.author.name }}</span>
+        <button class="share-btn" onclick="sharePost()">Share</button>
+    </div>
 
     <div class="post-navigation" style="display: flex; justify-content: space-between; margin-top: 50px; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px;">
         {% if page.previous.url %}
@@ -29,3 +34,17 @@ layout: default
         {% endif %}
     </div>
 </article>
+
+<script>
+function sharePost() {
+    const url = '{{ site.url }}{{ page.url | relative_url }}';
+    const title = '{{ page.title | escape }}';
+    if (navigator.share) {
+        navigator.share({ title: title, url: url });
+    } else {
+        navigator.clipboard.writeText(url).then(() => {
+            alert('URL copied to clipboard!');
+        });
+    }
+}
+</script>
