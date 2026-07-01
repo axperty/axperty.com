@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Donation funds transparency (June 2026)"
-date: 2026-06-01
+date: 2026-07-01
 category: "News"
 tags: [minecraft, modding, updates]
 ---
