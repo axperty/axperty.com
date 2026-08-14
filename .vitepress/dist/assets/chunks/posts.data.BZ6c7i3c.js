@@ -1,1 +1,0 @@
-const n=JSON.parse('[{"title":"Donation funds transparency (June 2026)","url":"/posts/2026-07-01-donation-funds-transparency-june.html","date":"2026-07-01T00:00:00.000Z"},{"title":"Donation funds transparency (May 2026)","url":"/posts/2026-06-02-donation-funds-transparency-may.html","date":"2026-06-02T00:00:00.000Z"}]');export{n as d};

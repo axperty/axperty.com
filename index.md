@@ -4,7 +4,7 @@ hero:
   name: "Creating Minecraft Mods"
   tagline: "Focused on details and the player experience."
   image:
-    src: https://cdn.modrinth.com/data/UYrNpKJN/images/2cb9329ce47093493b4b281d92acc1e3ce5de3a7.png
+    src: ./assets/hero.png
     alt: Axperty
   actions:
     - theme: brand

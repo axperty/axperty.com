@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as r,a0 as n}from"./chunks/framework.DQOulFGV.js";const h=JSON.parse('{"title":"Donate","description":"","frontmatter":{},"headers":[],"relativePath":"donate.md","filePath":"donate.md"}'),o={name:"donate.md"};function s(p,e,i,d,l,c){return t(),r("div",null,[...e[0]||(e[0]=[n("",3)])])}const g=a(o,[["render",s]]);export{h as __pageData,g as default};
