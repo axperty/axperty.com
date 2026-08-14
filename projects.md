@@ -4,7 +4,7 @@ These are all the Minecraft projects I've created:
 
 ***
 
-<img src="./assets/farmingexperience_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/farmingexperience_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Farming Experience
 
@@ -16,7 +16,7 @@ Featured in CurseForge's "Food & Farming" Monthly Theme.
 
 ***
 
-<img src="./assets/cratedelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/cratedelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Crate Delight
 
@@ -26,7 +26,7 @@ Useful crates and bags that will save you storage and look great.
 
 ***
 
-<img src="./assets/cratedelight_croptopia_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/cratedelight_croptopia_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Crate Delight: Croptopia
 
@@ -36,7 +36,7 @@ Useful crates and bags for Croptopia that will save you storage and look great.
 
 ***
 
-<img src="./assets/moredelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/moredelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### More Delight
 
@@ -46,7 +46,7 @@ Extra meals, knives, and ingredients for Farmer's Delight that improve your culi
 
 ***
 
-<img src="./assets/storagedelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/storagedelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Storage Delight
 
@@ -56,7 +56,7 @@ Extra furniture for Farmer's Delight that makes your kitchen or any space look b
 
 ***
 
-<img src="./assets/tweaksdelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/tweaksdelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Tweaks Delight
 
@@ -66,7 +66,7 @@ Add many more quality of life features to Farmer's Delight, see recipes and find
 
 ***
 
-<img src="./assets/delightlib_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/delightlib_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Delight Lib
 
@@ -76,7 +76,7 @@ A library mod for Farmer's Delight to create add-ons easily with a few lines of 
 
 ***
 
-<img src="./assets/toomanypaintings_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/toomanypaintings_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Too Many Paintings!
 
@@ -86,7 +86,7 @@ More paintings for Minecraft, includes famous paintings too!
 
 ***
 
-<img src="./assets/stackedblocks_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/stackedblocks_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Stacked Blocks
 
@@ -96,7 +96,7 @@ Stack your blocks and save 8 times the space! Never run out of storage again.
 
 ***
 
-<img src="./assets/stackedblocks_farmersdelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/stackedblocks_farmersdelight_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Stacked Blocks: Farmer's Delight
 
@@ -106,7 +106,7 @@ A compatibility mod for Stacked Blocks and Farmer's Delight.
 
 ***
 
-<img src="./assets/stackedblocks_supplementaries_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/stackedblocks_supplementaries_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### Stacked Blocks: Supplementaries
 
@@ -116,7 +116,7 @@ A compatibility mod for Stacked Blocks and Supplementaries.
 
 ***
 
-<img src="./assets/theblockbox_refabricated_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
+<img src="/assets/theblockbox_refabricated_icon.png" width="400" style="vertical-align: middle; border-radius: 8px; margin-right: 10px;"> 
 
 ### The Block Box: Refabricated
 

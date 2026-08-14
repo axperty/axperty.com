@@ -3,8 +3,19 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Axperty",
   description: "Creating Minecraft content that focuses on details and the player experience.",
+  head: [
+    ['link', { rel: 'icon', href: '/assets/avatar.png' }],
+    ['meta', { name: 'theme-color', content: '#b38b59' }],
+    ['meta', { property: 'og:title', content: 'Axperty' }],
+    ['meta', { property: 'og:description', content: 'Creating Minecraft content that focuses on details and the player experience.' }],
+    ['meta', { property: 'og:image', content: 'https://axperty.github.io/assets/avatar.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary' }]
+  ],
+  sitemap: {
+    hostname: 'https://axperty.github.io'
+  },
   themeConfig: {
-    logo: 'https://avatars.githubusercontent.com/u/107956734',
+    logo: '/assets/avatar.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Projects', link: '/projects' },

@@ -5,17 +5,17 @@ category: "News"
 tags: [minecraft, modding, updates]
 ---
 
-![Farming Experience Logo](https://i.imgur.com/TmwuZvQ.png)
+![Farming Experience Logo](/assets/farmingexperience_icon.png)
 
 ## New Farming Experience Update is Now Available!
 
 Check out the showcase video with some of the new features added to the modpack:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VC5ULgQgdM?si=V8Fig0HICmyPbRoD&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5VC5ULgQgdM?si=V8Fig0HICmyPbRoD&amp;controls=0&amp;autoplay=1&amp;mute=1" title="Farming Experience Update Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### What's New
+### All New Features:
 
-These are all the new features added to version 26.08.07 of the Farming Experience modpack:
+In this modpack update, many new mods have been added that completely change the gameplay experience. **Please make a copy of your world before updating as things could break.**
 
 - Added Amendments mod.
 - Added Better Than Mending mod.
@@ -54,14 +54,18 @@ These are all the new features added to version 26.08.07 of the Farming Experien
 - If you don't like any of these features, they can be easily disabled in game options.
   - Go to Options... > Mods... > Farming Experience Core > Config...
 
-### Additional Features
+### Additional Features:
 
-- Farming Experience Core which brings many of these features will now detect if the player is actually running the modpack. If you have issues with this feature, please report the issue as soon as possible.
+- _Farming Experience Core_ which brings many of these features will now detect if the player is actually running the modpack. If you have issues with this feature, [please report the issue as soon as possible](http://github.com/axperty/farmingexperiencecore/issues).
 
-Some functionality added to Farming Experience Core was inspired from these great creators:
+Some functionality added to _Farming Experience Core_ was inspired from these great creators:
 
-- Matcha Flavoured datapack by klei_wright.
+- [Matcha Flavoured](https://modrinth.com/datapack/matcha-flavoured) datapack by [klei_wright](https://modrinth.com/user/klei_wright).
   - Player loses a heart when they die, and they can get it back by eating a golden apple.
-
-- Adding Features to Minecraft That Just Make Sense video by Nekoma.
+-  [Adding Features to Minecraft That Just Make Sense](https://www.youtube.com/watch?v=-5EVjgQy1WM) video by [Nekoma](https://www.youtube.com/@Nekoma7).
   - Expanded cauldron functionality, allowing the player to wash wool, terracotta, stained-glass, concrete, concrete powder, and candles.
+
+### Download:
+
+- [Download on CurseForge](https://www.curseforge.com/minecraft/modpacks/farming-experience)
+- [Download on Modrinth](https://modrinth.com/modpack/farming-experience)
