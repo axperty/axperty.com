@@ -4,3 +4,8 @@ out
 *.iws
 *.iml
 .idea
+
+# Node
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
