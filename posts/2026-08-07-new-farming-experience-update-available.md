@@ -11,7 +11,7 @@ tags: [minecraft, modding, updates]
 
 Check out the showcase video with some of the new features added to the modpack:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5VC5ULgQgdM?si=V8Fig0HICmyPbRoD&amp;controls=0&amp;autoplay=1&amp;mute=1" title="Farming Experience Update Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe height="315" src="https://www.youtube.com/embed/5VC5ULgQgdM?si=V8Fig0HICmyPbRoD&amp;controls=0&amp;autoplay=1&amp;mute=1" title="Farming Experience Update Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### All New Features:
 
