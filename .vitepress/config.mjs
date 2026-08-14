@@ -15,6 +15,9 @@ export default defineConfig({
     hostname: 'https://axperty.github.io'
   },
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     logo: '/assets/avatar.png',
     nav: [
       { text: 'Home', link: '/' },
