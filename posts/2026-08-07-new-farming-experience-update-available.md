@@ -7,7 +7,9 @@ tags: [minecraft, modding, updates]
 
 ![Farming Experience Logo](/assets/farmingexperience_icon.png)
 
-## New Farming Experience Update is Now Available!
+# New Farming Experience Update is Now Available!
+
+<PostMeta />
 
 Check out the showcase video with some of the new features added to the modpack:
 
