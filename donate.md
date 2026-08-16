@@ -1,9 +1,7 @@
 # Donate
 
-Your support is always very appreciated.
+Your support is always very appreciated, please don't forget to send a message with your donation. I love to read them.
 
-[![Patreon Button](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/donate/patreon-singular_64h.png)](https://www.patreon.com/Axperty)
+[![PayPal Button](/assets/paypal-singular_64h.png)](https://paypal.me/kevgelhorn)
 
-[![PayPal Button](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/donate/paypal-singular_64h.png)](https://paypal.me/kevgelhorn)
-
-[![Ko-Fi Button](https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/cozy/donate/kofi-singular_64h.png)](https://ko-fi.com/axperty)
+[![Ko-Fi Button](/assets/kofi-singular_64h.png)](https://ko-fi.com/axperty)
