@@ -8,8 +8,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#b38b59' }],
     ['meta', { property: 'og:title', content: 'Axperty' }],
     ['meta', { property: 'og:description', content: 'Creating Minecraft content that focuses on details and the player experience.' }],
-    ['meta', { property: 'og:image', content: 'https://axperty.github.io/assets/avatar.png' }],
-    ['meta', { name: 'twitter:card', content: 'summary' }]
+    ['meta', { property: 'og:image', content: 'https://axperty.github.io/assets/hero.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: 'https://axperty.github.io/assets/hero.png' }]
   ],
   sitemap: {
     hostname: 'https://axperty.github.io'
