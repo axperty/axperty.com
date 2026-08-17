@@ -82,7 +82,7 @@ A library mod for Farmer's Delight to create add-ons easily with a few lines of 
 
 More paintings for Minecraft, includes famous paintings too!
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/too-many-paintings-forge-fabric) | [Download on Modrinth](https://modrinth.com/mod/too-many-paintings)
+[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/too-many-paintings-forge-fabric) | [Download on Modrinth](https://modrinth.com/mod/too-many-paintings) | [Source Code](https://github.com/axperty/toomanypaintings)
 
 ***
 
