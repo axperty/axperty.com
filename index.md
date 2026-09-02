@@ -22,11 +22,11 @@ features:
     link: /projects
     linkText: View Projects
   - title: Open Source
-    details: The source code of my projects is available on GitHub.
-    link: https://github.com/axperty
-    linkText: See on GitHub
+    details: Source code from all projects are under the MIT License.
   - title: Contribute
     details: Code suggestions, bug reports, texture improvements, or translations are always welcome.
+    link: https://github.com/axperty
+    linkText: See on GitHub
 ---
 
 ## News & Updates

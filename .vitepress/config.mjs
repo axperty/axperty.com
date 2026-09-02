@@ -8,12 +8,12 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#b38b59' }],
     ['meta', { property: 'og:title', content: 'Axperty' }],
     ['meta', { property: 'og:description', content: 'Creating Minecraft content that focuses on details and the player experience.' }],
-    ['meta', { property: 'og:image', content: 'https://axperty.github.io/assets/hero.png' }],
+    ['meta', { property: 'og:image', content: 'https://axperty.com/assets/hero.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:image', content: 'https://axperty.github.io/assets/hero.png' }]
+    ['meta', { name: 'twitter:image', content: 'https://axperty.com/assets/hero.png' }]
   ],
   sitemap: {
-    hostname: 'https://axperty.github.io'
+    hostname: 'https://axperty.com'
   },
   themeConfig: {
     search: {
@@ -33,7 +33,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. All other trademarks and logos are property of their respective owners.',
-      copyright: 'Copyright © 2026 Axperty.'
+      copyright: 'Copyright © 2026 Axperty. Website source code is under the MIT License.'
     }
   }
 })

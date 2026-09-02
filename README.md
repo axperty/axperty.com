@@ -8,3 +8,16 @@
 ### Overview
 
 This repository contains the source code for the [axperty.com](https://www.axperty.com) website.
+It provides documentation and information for projects built for Fabric, Forge, and NeoForge loaders.
+
+The website is built using VitePress and deployed automatically to GitHub Pages using GitHub Actions.
+
+### License
+
+The source code in this repository is licensed under the [MIT License](https://github.com/axperty/axperty.github.io/blob/main/LICENSE).
+All images and assets located in the repository and displayed on the [axperty.com](https://www.axperty.com) website are excluded from this license. 
+These files are subject to their respective copyrights.
+
+### Disclosure
+
+Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.

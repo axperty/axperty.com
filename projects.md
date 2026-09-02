@@ -12,7 +12,7 @@ The survival update that enhances everything you love is here, with a comprehens
 
 Featured in CurseForge's "Food & Farming" Monthly Theme.
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks-supplementaries) | [Download on Modrinth](https://modrinth.com/modpack/farming-experience) | [Source Code](https://github.com/axperty/farmingexperience)
+[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/stacked-blocks-supplementaries) | [Download on Modrinth](https://modrinth.com/modpack/farming-experience) | [Visit Website](https://axperty.com/farmingexperience) | [Source Code](https://github.com/axperty/farmingexperience)
 
 ***
 
@@ -22,7 +22,7 @@ Featured in CurseForge's "Food & Farming" Monthly Theme.
 
 Useful crates and bags that will save you storage and look great.
 
-[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge) | [Download on Modrinth](https://modrinth.com/mod/crate-delight) | [Source Code](https://github.com/axperty/cratedelight)
+[Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/crate-delight-forge) | [Download on Modrinth](https://modrinth.com/mod/crate-delight) | [Visit Website](https://axperty.com/farmingexperience) | [Source Code](https://github.com/axperty/cratedelight)
 
 ***
 

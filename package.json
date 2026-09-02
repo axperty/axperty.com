@@ -1,7 +1,7 @@
 {
-  "name": "axperty.github.io",
-  "version": "26.08.18",
-  "description": "A website by Axperty.",
+  "name": "axperty.com",
+  "version": "26.09.02",
+  "description": "Axperty's Website.",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -22,11 +22,11 @@
   ],
   "author": "Axperty",
   "license": "MIT",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/axperty/axperty.github.io/issues"
   },
-  "homepage": "https://github.com/axperty/axperty.github.io#readme",
+  "homepage": "https://axperty.com",
   "devDependencies": {
     "vitepress": "^1.6.4",
     "vue": "^3.5.41"
