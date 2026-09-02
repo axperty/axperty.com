@@ -7,4 +7,4 @@
 
 ### Overview
 
-This repository contains the source code for the [axperty.github.io](https://axperty.github.io) website.
+This repository contains the source code for the [axperty.com](https://www.axperty.com) website.
