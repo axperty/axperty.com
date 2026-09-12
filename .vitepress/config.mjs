@@ -32,8 +32,8 @@ export default defineConfig({
       { icon: 'youtube', link: 'https://www.youtube.com/@axperty' }
     ],
     footer: {
-      message: 'Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. All other trademarks and logos are property of their respective owners.<br><a href="/privacy">Privacy Policy</a>',
-      copyright: 'Copyright © 2026 Axperty. Website source code is under the MIT License.'
+      message: 'Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft. <br/>All other trademarks and logos are property of their respective owners.<br><a href="/privacy">Privacy Policy</a>',
+      copyright: 'Copyright © 2026 Axperty. <br/>Website source code is under the MIT License.'
     }
   }
 })
